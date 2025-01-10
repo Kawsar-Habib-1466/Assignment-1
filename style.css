@@ -1,5 +1,3 @@
-/* styles.css */
-/* General Styling */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -86,23 +84,23 @@ body {
 
 /* Pillars section */
 .pillars {
-  padding: 40px 80px; /* Adjust padding for spacing */
+  padding: 40px 80px;
   /* background-color: #ffffff; */
 }
 
 .pillars h2 {
   font-size: 1.8rem;
-  color: #393a3a; /* Dark grey color */
+  color: #393a3a;
   font-weight: bold;
   margin-bottom: 32px;
-  text-align: left; /* Align title to the left */
+  text-align: left;
 }
 
 /* Container for cards */
 .pillars-container {
   display: flex;
   justify-content: space-between;
-  gap: 20px; /* Add space between cards */
+  gap: 20px;
   margin: 0 auto;
   max-width: 1280px;
 }
@@ -114,10 +112,9 @@ body {
   border-radius: 8px;
   padding: 20px;
   text-align: left;
-  width: 300px; /* Fixed width for consistent card sizes */
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  width: 300px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
-
 .pillar-card img {
   max-width: 60px;
   margin-bottom: 16px;
@@ -135,7 +132,6 @@ body {
   line-height: 1.5;
 }
 
-/* Ensure proper spacing between cards without responsiveness */
 .pillars-container > * {
   flex: 1;
 }
@@ -308,9 +304,9 @@ tbody td {
   color: #555555;
 }
 .line {
-  border-left: 1px solid #ddd; /* Adds a line between columns and rows */
-  text-align: center; /* Aligns text to the left */
-  padding: 10px; /* Adds spacing inside cells */
+  border-left: 1px solid #ddd;
+  text-align: center;
+  padding: 10px;
 }
 tbody tr:last-child {
   border-bottom: none;
@@ -613,7 +609,7 @@ select:focus {
 
 /* Footer Section */
 .footer {
-  background-color: #ffffff; /* White footer background */
+  background-color: #ffffff;
   text-align: center;
   padding: 40px 0;
   border-top: 1px solid #dddddd;
@@ -639,13 +635,13 @@ select:focus {
 }
 
 .social-icon img:hover {
-  transform: scale(1.2); /* Slight zoom effect */
-  opacity: 0.8; /* Slight transparency */
+  transform: scale(1.2);
+  opacity: 0.8;
 }
 /* Divider Styling */
 .divider {
-  width: 80%; /* Adjust the width as needed */
+  width: 80%;
   height: 1px;
-  margin: 20px auto; /* Center the divider and add spacing */
-  background-color: #dddddd; /* Light grey divider color */
+  margin: 20px auto;
+  background-color: #dddddd;
 }
